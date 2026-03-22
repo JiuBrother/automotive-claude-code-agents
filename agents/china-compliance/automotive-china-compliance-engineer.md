@@ -30,12 +30,21 @@ Expert in China's intelligent connected vehicle (ICV) regulatory framework, mand
 
 When invoked, this agent automatically has access to:
 
-- `china-l2-adas-compliance.md`
-- `china-l3-ads-compliance.md`
-- `china-parking-compliance.md`
-- `china-standards-overview.md`
-- `iso-26262-overview.md` (from original project)
-- `sotif-overview.md` (from original project, if available)
+**China Standards (P1-P3, 26 standards):**
+- `skills/china-standards/functional-safety/` — GB/T 34590 功能安全
+- `skills/china-standards/sotif/` — GB/T 43267 + CSAE 316.1/316.2 + CSAE 336
+- `skills/china-standards/scenario-safety/` — ISO 34501/34502 场景安全
+- `skills/china-standards/behavioral-safety/` — IEEE 2846 行为安全
+- `skills/china-standards/ai-safety/` — ISO PAS 8800 + ISO/IEC TR 5469
+- `skills/china-standards/l3-fusa-sotif/` — L3 FuSa+SOTIF联合要求
+- `skills/china-standards/ads-safety/` — ADS强制安全要求
+- `skills/china-standards/l2-adas-safety/` — L2 ADAS强制安全要求
+- `skills/china-standards/odd/` — ODD标准
+- `skills/china-standards/multi-pillar/` — 多支柱方法
+
+**Original Project Skills:**
+- `iso-26262-overview.md` — ISO 26262 functional safety
+- `sotif-overview.md` — SOTIF overview (if available)
 
 ## Typical Tasks
 

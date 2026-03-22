@@ -165,9 +165,18 @@ Non-compliance consequences:
 - `safety-critical-code-rules.md` — ASIL C/D code rules
 - `sotif-overview.md` — SOTIF analysis rules
 
-## Related Skills
+## Related Skills (Aligned with P1-P3 Standard Recommendations)
 
-- `automotive-china-l2-adas-compliance`
-- `automotive-china-l3-ads-compliance`
-- `automotive-china-parking-compliance`
-- `automotive-china-standards-overview`
+- `skills/china-standards/functional-safety/` — GB/T 34590 功能安全（P1）
+- `skills/china-standards/sotif/` — GB/T 43267 + CSAE 316.1/316.2/336（P1）
+- `skills/china-standards/scenario-safety/` — ISO 34501/34502 场景安全（P1）
+- `skills/china-standards/behavioral-safety/` — IEEE 2846 行为安全（P1）
+- `skills/china-standards/ai-safety/` — ISO PAS 8800 + TR 5469（P1）
+- `skills/china-standards/l3-fusa-sotif/` — L3 FuSa+SOTIF联合要求（P2）
+- `skills/china-standards/ads-safety/` — ADS强制安全要求（P2）
+- `skills/china-standards/l2-adas-safety/` — L2 ADAS强制安全要求（P2）
+- `skills/china-standards/odd/` — ODD标准（P2）
+- `skills/china-standards/multi-pillar/` — 多支柱方法（P2）
+- `skills/automotive-china-l2-adas-compliance/` — L2合规详细指南
+- `skills/automotive-china-l3-ads-compliance/` — L3合规详细指南
+- `skills/automotive-china-parking-compliance/` — 泊车合规指南

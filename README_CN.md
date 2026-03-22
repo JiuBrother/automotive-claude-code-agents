@@ -19,24 +19,40 @@
 
 本 Fork 在原项目基础上新增以下内容：
 
-#### 增强方向一：中国标准法规体系（原项目完全缺失）
+#### 增强方向一：标准法规体系（26项标准，P1-P3分级）
 
-| 新增文件 | 说明 |
-|---------|------|
-| `skills/automotive-china-l2-adas-compliance/` | 中国 L2 组合驾驶辅助系统强标合规 |
-| `skills/automotive-china-l3-ads-compliance/` | 中国 L3 自动驾驶系统准入 |
-| `skills/automotive-china-parking-compliance/` | 中国泊车系统标准合规 |
-| `skills/automotive-china-standards-overview/` | 中国智能网联汽车标准体系总览 |
-| `agents/china-compliance/automotive-china-compliance-engineer.md` | 中国合规工程师智能体 |
-| `rules/china-standards/automotive-china-mandatory-standards.md` | 中国强标合规规则 |
-| `knowledge-base/standards/china-standards/` | 中国标准参考知识库 |
+基于专业标准审查，系统化收录了 **15项P1（强烈推荐）+ 7项P2（推荐）+ 4项P3（可选）** 共26项核心标准：
 
-覆盖标准包括：
-- GB 组合驾驶辅助系统安全要求（强制性国标，2026年执行）
-- GB 自动驾驶系统安全要求（制定中）
-- GB/泊车辅助/自动泊车系统标准
-- GB/T 40857 汽车网络安全
-- GB/T 34590 功能安全（ISO 26262 中国采标）
+**P1-强烈推荐（15项已发布标准）：**
+
+| 新增目录 | 覆盖标准 |
+|---------|---------|
+| `skills/china-standards/functional-safety/` | GB/T 34590-2022 道路车辆功能安全（12部分） |
+| `skills/china-standards/sotif/` | GB/T 43267-2023 + CSAE 316.1/316.2 + CSAE 336（4项SOTIF标准） |
+| `skills/china-standards/scenario-safety/` | ISO 34501/34502 场景安全评估框架 |
+| `skills/china-standards/behavioral-safety/` | IEEE 2846-2022 ADS安全假设（含RSS） |
+| `skills/china-standards/ai-safety/` | ISO PAS 8800 + ISO/IEC TR 5469（AI安全） |
+
+**P2-推荐入选（7项草案/在制标准）：**
+
+| 新增目录 | 覆盖标准 |
+|---------|---------|
+| `skills/china-standards/l3-fusa-sotif/` | L3 FuSa+SOTIF联合要求（2025.01草案，中国独创） |
+| `skills/china-standards/ads-safety/` | ADS强制安全要求（2025.11征求意见稿） |
+| `skills/china-standards/l2-adas-safety/` | L2 ADAS强制安全要求（项目组草案v2.1） |
+| `skills/china-standards/odd/` | ODD设计运行条件 |
+| `skills/china-standards/multi-pillar/` | "多支柱"标准综合应用指南（152页） |
+
+**P3-可选入选（4项）：** L2 ADAS功能要求16项、ISO 34502中国版、ISO 34503/34504/34505场景标准族、功能安全审核方法
+
+**支撑文件：**
+
+| 文件 | 说明 |
+|------|------|
+| `agents/china-compliance/` | 中国合规工程师智能体 |
+| `rules/china-standards/` | 中国强标合规规则 |
+| `knowledge-base/standards/china-standards/` | 标准索引与参考库 |
+| `knowledge-base/standards/china-regulatory/` | 国际法规参考（R157/UL4600等） |
 
 #### 增强方向二：SOTIF 深度实践（原项目仅浅层覆盖）
 
